@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Exo:ital,wght@1,200&family=Nunito+Sans:ital@1&display=swap');
+
+
+body,
+ ul, 
+ li
+ , p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Exo', sans-serif;
+    
+}
+body{ 
+    margin-bottom:100px ;
+    background-color: white;
+}
+h3{
+    text-align: center;
+    color: rgb(255, 0, 179);
+    font-family:'Nunito Sans', sans-serif;
+}
+h2{
+    text-align:center ;
+    margin-top: 100px;
+    color: black;
+    font-family: 'Caveat', cursive;
+}
+h1{
+    text-align:center ;
+    margin-top: 100px;
+    font-family: 'Caveat', cursive;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+a {
+    text-decoration: none;
+color: rgb(255, 6, 234);
+}
+LI {
+    text-decoration: none;
+color: rgb(255, 249, 249);
+}
+
+.header{
+    margin-top: 30px ;
+   background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.menu{ 
+    display: flex;
+}
+
+.menu li{
+    margin-left:10px ;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+    
+
+
+.flex{
+    margin-top: 20px;
+    margin-left: 135px;
+    display: flex;
+    flex-wrap:wrap ;
+    max-width: 1000px;
+   
+}
+.flex > div{
+    flex: 1 1 200px;
+    margin: 30px;
+
+}
+
+/*grid*/
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    max-width: 950px;
+    margin-top: 20px;
+    margin-left: 150px;
+   
+    grid-gap: 30px;
+
+}
+.grid1 > div:nth-child(n + 4){
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+.grid1 > div.anuncio{
+    grid-column: 1;
+    grid-row: 2/5;
+    display: block;
+}
+
+   
+.section1{
+    display:flex;   
+    height: 5vw;
+    background-color: rgb(7, 7, 7);
+    margin-top: 15px;
+}
+.centralize{
+    margin:auto;
+    text-align: center;
+ }
+
+
+ .section2{
+     display: flex;
+     
+ }
+
+footer{
+    background-color: black;
+}
+footer LI{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.section2{
+    display: flex;
+    
+}
